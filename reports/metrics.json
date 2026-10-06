@@ -1,0 +1,26 @@
+{
+  "accuracy": 0.8044692737430168,
+  "precision": 0.7931034482758621,
+  "recall": 0.6666666666666666,
+  "f1": 0.7244094488188977,
+  "roc_auc": 0.8435441370223978,
+  "cv_results": {
+    "Logistic Regression": {
+      "mean": 0.8286811779769525,
+      "std": 0.02181156250042517
+    },
+    "Random Forest": {
+      "mean": 0.8174332709543979,
+      "std": 0.01962794870591302
+    },
+    "Gradient Boosting": {
+      "mean": 0.8244459765586527,
+      "std": 0.018184853819464813
+    }
+  },
+  "best_params": {
+    "model__max_depth": 8,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 400
+  }
+}
